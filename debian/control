@@ -12,7 +12,7 @@ Homepage: http://www.kde.org
 
 Package: kigo
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-data
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-data (>= ${source:Upstream-Version})
 Recommends: gnugo
 Description: go game
  Kigo is an open-source implementation of the popular Go game. Go is a
