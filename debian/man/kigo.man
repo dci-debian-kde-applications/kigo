@@ -1,0 +1,27 @@
+.TH KIGO 6
+.SH NAME
+kigo \- KDE Go board game
+.SH SYNOPSIS
+.B kigo
+.I [Qt-options] [KDE-options] [options] [url]
+.SH DESCRIPTION
+.B kigo
+is an open-source implementation of the popular Go game. Go is a
+strategic board game for two players. It is also known as igo (Japanese),
+weiqi or wei ch'i (Chinese) or baduk (Korean). Go is noted for being rich
+in strategic complexity despite its simple rules. The game is played by
+two players who alternately place black and white stones (playing pieces,
+now usually made of glass or plastic) on the vacant intersections of a grid
+of 19x19 lines (9x9 or 13x13 for easier games).
+.SH OPTIONS
+.TP
+.B \-\-game
+Game to load (SGF file)
+.B url
+Game to load (SGF file)
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kigo
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kigo').
