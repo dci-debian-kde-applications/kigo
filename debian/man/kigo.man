@@ -17,6 +17,7 @@ of 19x19 lines (9x9 or 13x13 for easier games).
 .TP
 .B \-\-game
 Game to load (SGF file)
+.TP
 .B url
 Game to load (SGF file)
 .so kdeopt.part
