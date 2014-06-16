@@ -4,27 +4,29 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Daniel Schepler <schepler@debian.org>,
- Sune Vuorela <sune@debian.org>,
- Fathi Boudra <fabo@debian.org>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <gkiagiad@csd.uoc.gr>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
- Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.13.0),
- libkdegames-dev (>= 4:4.13.0)
-Standards-Version: 3.9.4
+           Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.11),
+               libkdegames-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.14)
+Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kigo
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kigo
-X-Debian-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kigo.git
-X-Debian-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kigo.git
+X-Vcs-Debian-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kigo.git
+X-Vcs-Debian-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kigo.git
 
 Package: kigo
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: gnugo, khelpcenter4
 Description: go game
  Kigo is an open-source implementation of the popular Go game. Go is a
@@ -36,4 +38,3 @@ Description: go game
  of 19x19 lines (9x9 or 13x13 for easier games).
  .
  This package is part of the KDE games module.
-
