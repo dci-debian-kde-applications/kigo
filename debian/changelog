@@ -1,4 +1,4 @@
-kigo (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+kigo (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * Add back kdelibs parent version depend 
   * New upstream release
@@ -7,7 +7,7 @@ kigo (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
   * Undo my libkdegames change, -dev was not changed.
   * Fix spelling.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 10:38:28 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:57:32 -0700
 
 kigo (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
