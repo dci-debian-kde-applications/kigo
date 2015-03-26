@@ -4,6 +4,17 @@ kigo (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:56:34 +0100
 
+kigo (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * Add back kdelibs parent version depend 
+  * New upstream release
+  * Fix kdelibs5 version in build depends
+  * libkdegames was renamed to 4 accommodate both kde4 and 5 
+  * Undo my libkdegames change, -dev was not changed.
+  * Fix spelling.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:57:32 -0700
+
 kigo (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
