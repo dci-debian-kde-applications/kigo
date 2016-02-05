@@ -1,8 +1,19 @@
-kigo (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kigo (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release. 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:56:34 +0000
+
+kigo (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:23 +0100
 
 kigo (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -28,6 +39,12 @@ kigo (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:52:27 +0100
 
+kigo (4:15.04.2-1) unstable; urgency=medium
+
+  * New upstream release (15.04.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:48 +0200
+
 kigo (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
@@ -40,6 +57,12 @@ kigo (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:05:15 +0200
 
+kigo (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:12 +0200
+
 kigo (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * Add back kdelibs parent version depend 
@@ -51,20 +74,26 @@ kigo (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:57:32 -0700
 
+kigo (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+
+  [ Scarlett Clark ]
+  * Add back kdelibs parent version depend
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 12:42:40 +0100
+
 kigo (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:50:17 -0800
-
-kigo (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 10:16:55 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:50:17 -0800
 
 kigo (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -74,12 +103,12 @@ kigo (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kigo (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
    - Remove X-Ubuntu entries no longer applicable.
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 19:44:15 +0000
 
@@ -367,4 +396,3 @@ kigo (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
   * Initial release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:54:56 +0000
-
