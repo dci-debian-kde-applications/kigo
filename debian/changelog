@@ -1,3 +1,9 @@
+kigo (4:15.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:57:08 +0100
+
 kigo (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
