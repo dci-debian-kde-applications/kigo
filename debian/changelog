@@ -1,4 +1,4 @@
-kigo (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kigo (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -7,7 +7,7 @@ kigo (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Debian merge: No remaining changes.
   * New upstream release. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:56:34 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:46:34 +0100
 
 kigo (4:15.08.3-1) unstable; urgency=medium
 
