@@ -1,3 +1,11 @@
+kigo (4:15.12.3-1~1.gbp2481e9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2481e9fddb07fda498401dcce3132e2092169060 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:26:02 +0200
+
 kigo (4:15.08.3-1) unstable; urgency=medium
 
   * New upstream release (15.08.3).
