@@ -1,8 +1,10 @@
-kigo (4:15.12.2-1~) UNRELEASED; urgency=medium
+kigo (4:16.04.0-1~1.gbpe91251) UNRELEASED; urgency=medium
 
-  * New upstream release (15.12.2).
+  ** SNAPSHOT build @e91251eac90692d6ac7a89288d7bc5fa5ec723fc **
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 09:57:08 +0100
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 04:25:11 +0200
 
 kigo (4:15.08.3-1) unstable; urgency=medium
 
