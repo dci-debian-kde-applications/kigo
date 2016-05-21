@@ -1,10 +1,6 @@
-kigo (4:16.04.0-1~2.gbpc8772a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @c8772aca1d86d2cab574b9f973f1eb46af8cacf0 **
+kigo (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @e91251eac90692d6ac7a89288d7bc5fa5ec723fc **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
@@ -13,7 +9,7 @@ kigo (4:16.04.0-1~2.gbpc8772a) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:25:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 20:19:33 +0200
 
 kigo (4:15.08.3-1) unstable; urgency=medium
 
