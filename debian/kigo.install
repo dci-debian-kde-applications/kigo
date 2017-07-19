@@ -8,4 +8,5 @@ usr/share/icons/
 usr/share/kigo/
 usr/share/kigo/themes/
 usr/share/kxmlgui5/kigo/kigoui.rc
+usr/share/locale/
 usr/share/metainfo/org.kde.kigo.appdata.xml
