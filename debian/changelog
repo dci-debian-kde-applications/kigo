@@ -18,6 +18,7 @@ kigo (4:17.08.3-1~1) UNRELEASED; urgency=medium
     everything to the final location
     - drop kigo.install, no more useful now
   * Remove unused libkf5notifyconfig-dev build dependency.
+  * Remove trailing whitespaces in changelog.
 
  -- Pino Toscano <pino@debian.org>  Sat, 18 Nov 2017 11:20:57 +0100
 
@@ -66,10 +67,10 @@ kigo (4:14.12.3-1) experimental; urgency=medium
 
 kigo (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
-  * Add back kdelibs parent version depend 
+  * Add back kdelibs parent version depend
   * New upstream release
   * Fix kdelibs5 version in build depends
-  * libkdegames was renamed to 4 accommodate both kde4 and 5 
+  * libkdegames was renamed to 4 accommodate both kde4 and 5
   * Undo my libkdegames change, -dev was not changed.
   * Fix spelling.
 
